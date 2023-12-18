@@ -1,0 +1,162 @@
+nav.offcanvas {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: start;
+  list-style: none;
+  width: 13rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+  background-color: #002858;
+  margin-left: 0;
+}
+nav.offcanvas img {
+  padding-left: 2rem;
+}
+nav.offcanvas ul {
+  list-style: none;
+}
+nav.offcanvas ul li {
+  padding: 30px 0px;
+  margin: 0;
+  list-style: none;
+}
+nav.offcanvas ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav.offcanvas #Salir {
+  margin: 0;
+  margin-left: 45px;
+}
+
+.separator {
+  border: 1px solid white;
+  width: 12.87rem;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Continuar desde aqui... */
+body {
+  background-color: rgba(0, 40, 88, 0.6666666667);
+}
+body input[type=sumbit] {
+  background-color: hsl(44, 100%, 61%);
+}
+body h1 {
+  text-align: center;
+  color: hsl(44, 100%, 61%);
+  padding: 60px 0px;
+}
+body .tabla {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body table {
+  border: 3px solid hsl(44, 100%, 61%);
+  border-collapse: collapse;
+}
+body table td {
+  border: 3px solid hsl(44, 100%, 61%);
+  color: hsl(44, 100%, 61%);
+  padding: 10px;
+}
+body table th {
+  background-color: hsl(44, 100%, 61%);
+  color: #002858;
+  padding: 20px;
+}
+body table button {
+  background-color: hsl(44, 100%, 61%);
+}
+body table tr:hover {
+  background-color: hsl(44, 100%, 61%);
+}
+body table tr:hover td {
+  color: #002858;
+}
+footer {
+  text-align: center;
+  color: hsl(44, 100%, 61%);
+  padding: 20px 0px;
+}
+
+.modalBorrar {
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modalBorrar .buttons input {
+  background-color: hsl(44, 100%, 61%);
+  padding: 5px;
+}
+.modalBorrar .buttons button {
+  padding: 5px;
+}
+.modalBorrar p {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.modalBorrar span {
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+.modalBorrar .content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.DialogForm {
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.DialogForm form {
+  background-color: white;
+  border: 5px solid black;
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+}
+.DialogForm form div.input {
+  justify-content: space-between;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */
